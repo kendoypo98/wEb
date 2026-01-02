@@ -104,7 +104,7 @@ nextBtn.addEventListener('click', function() {
 // Apology Yes - show happy cat gif and heart
 forgiveYes.addEventListener('click', function() {
     gifContainer.innerHTML = `
-        <img src="pics/5768b458d6c9c38676bfade7df010944.gif" alt="Yay cat">
+        <img src="5768b458d6c9c38676bfade7df010944.gif" alt="Yay cat">
         <div style="font-size: 3rem; margin-top: 1rem;">❤️</div>
         <p style="margin-top: 1rem; color: #ff69b4; font-size: 1.2rem; font-weight: bold;">Thank you! I love you! 💕</p>
     `;
@@ -114,7 +114,7 @@ forgiveYes.addEventListener('click', function() {
 // Apology No - show sad gif and please forgive me button
 forgiveNo.addEventListener('click', function() {
     gifContainer.innerHTML = `
-        <img src="pics/d7f587da442a54025daf47091fe26ba0.gif" alt="Sad cat">
+        <img src="d7f587da442a54025daf47091fe26ba0.gif" alt="Sad cat">
         <button class="forgive-plea-btn" id="forgivePleaBtn">Sakit mo naman🥺</button>
     `;
     apologyButtons.style.display = 'none';
@@ -124,7 +124,7 @@ forgiveNo.addEventListener('click', function() {
     forgivePleaBtn.addEventListener('click', function() {
         // Show happy response when they click the plea button
         gifContainer.innerHTML = `
-            <img src="pics/5768b458d6c9c38676bfade7df010944.gif" alt="Yay cat">
+            <img src="5768b458d6c9c38676bfade7df010944.gif" alt="Yay cat">
             <div style="font-size: 3rem; margin-top: 1rem;">❤️</div>
             <p style="margin-top: 1rem; color: #ff69b4; font-size: 1.2rem; font-weight: bold;">Yieee batiii naaa, I love youuuu! 💕</p>
         `;
